@@ -1460,6 +1460,13 @@ let cards = [
 	author: "Alara Joel",
 	githubLink: "https://github.com/stealthman22"
 }
+{
+	artName: "Side Swipe",
+	pageLink: "./Art/sideswipe/index.html",
+	imageLink: "./Art/sideswipe/sideswipe.gif",
+	author: "Leon Dail",
+	githubLink: "https://github.com/ldail"
+}
 ];
 
 // +--------------------------------------------------------------------------------+

@@ -1,0 +1,56 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(0,0,0,0.1);
+    height: 97%;
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+}
+
+.side {
+    width: 100%;
+    flex: 1;
+}
+
+#one {
+    background-color: red;
+    animation: moveLeft 10s;
+}
+
+#two {
+    background-color: green;
+    animation: moveLeft 10s infinite;
+    animation-delay: 3s;
+}
+
+#three {
+    background-color: blue;
+    animation: moveLeft 10s infinite;
+    animation-delay: 6s;
+}
+
+#four {
+    background-color: yellow;
+    animation: moveLeft 10s infinite;
+    animation-delay: 9s;
+}
+
+#five { 
+    background-color: purple;
+    animation: moveLeft 10s infinite;
+    animation-delay: 12s;
+}
+
+@keyframes moveLeft {
+        10% { transform: rotate(90deg); z-index: 1; }
+        20% { transform: rotate(90deg); margin-left: 40%; margin-top: 30%;}
+        30% { transform: rotate(90deg); margin-left: -40%}
+}
